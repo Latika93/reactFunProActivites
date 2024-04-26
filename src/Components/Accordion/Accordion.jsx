@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import accordionData from '../constants/accordionData';
+import accordionData from '../../constants/accordionData';
 
 const Accordion = () => {
     const [selected, setSelected] = useState(null);

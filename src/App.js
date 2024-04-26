@@ -1,6 +1,7 @@
-import Accordion from "./Accordion/Accordion";
-import ColorGenerator from "./ColorGenerator/ColorGenerator";
-import ImageSlider from "./ImageSlider/ImageSlider";
+import Accordion from "./Components/Accordion/Accordion";
+import ColorGenerator from "./Components/ColorGenerator/ColorGenerator";
+import LoadMore from "./Components/LoadMore.jsx/LoadMore";
+import ImageSlider from "./Components/ImageSlider/ImageSlider";
 import Star from "./Star/Star";
 import Images from "./constants/images";
 
@@ -11,6 +12,9 @@ function App() {
       <ColorGenerator />
       <Star />
       <ImageSlider images={Images} />
+
+      <LoadMore />
+
     </div>
   );
 }
